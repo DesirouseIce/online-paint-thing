@@ -1,7 +1,7 @@
 var socket;
 
 function setup(){
-  createCanvas(600, 400);
+  createCanvas(1200, 800);
   background(51);
   
   socket = io.connect('/');
